@@ -1,0 +1,15 @@
+- name: kind/epic
+  color: c7def8
+  description: So high level only product management understand their true meaning
+- name: kind/capability
+  color: c7def8
+  description: A generic description of a high level piece of work that contains one or more features
+- name: kind/feature
+  color: c7def8
+  description: A set of tasks that comprise a piece of functionality. Multiple features can represent a capability
+- name: kind/story
+  color: c7def8
+  description: A optional way to group tasks under features.
+- name: kind/task
+  color: c7def8
+  description: A single work item that implements a piece of a feature.
