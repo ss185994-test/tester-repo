@@ -1,0 +1,21 @@
+name: Sync labels
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - .github/labels.yaml
+jobs:
+  synclabels:
+    strategy:
+      matrix:
+        repos: 
+        - ss185994-test/tester-repo
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: micnncim/action-label-syncer@v1.3.0
+        with:
+          manifest: .github/labels.yaml
+          repository: ${{ matrix.repos }}
+          token: ${{ secrets.CROSS_REPO_TOKEN }}
