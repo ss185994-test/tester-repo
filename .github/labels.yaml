@@ -13,3 +13,7 @@
 - name: kind/task
   color: c7def8
   description: A single work item that implements a piece of a feature.
+
+- name: idk
+  color: ffffff
+  description: dunno.
