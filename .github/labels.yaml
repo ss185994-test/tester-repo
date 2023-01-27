@@ -14,6 +14,26 @@
   color: c7def8
   description: A single work item that implements a piece of a feature.
 
-- name: idk
-  color: ffffff
-  description: dunno yep
+
+- name: type/bugfix
+  color: aa2838
+- name: type/chore
+  color: aa2838
+- name: type/configuration
+  color: aa2838
+- name: type/feature
+  color: aa2838
+- name: type/refactor
+  color: aa2838
+- name: type/build
+  color: aa2838
+- name: type/ci
+  color: aa2838
+- name: type/documentation
+  color: aa2838
+- name: type/style
+  color: aa2838
+- name: type/performance
+  color: aa2838
+- name: type/test
+  color: aa2838
